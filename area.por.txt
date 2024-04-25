@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real lado
+		real area
+		real resultado
+		escreva("digite o tamanho do lado: ")
+		leia(lado)
+		area=lado*lado
+		resultado=area*2
+		escreva("o valor da area é: ",area," e o seu dobro é: ",resultado)
+	}
+}
