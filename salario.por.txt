@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real salario
+		real hora
+		escreva("digite o valor por hora: ")
+		leia (salario)
+		escreva("digite a quantia de horas trabalhadas: ")
+		leia(hora)
+		escreva("o valor do salario: é",hora*salario)
+	}
+}
