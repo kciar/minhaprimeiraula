@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real x
+		real y
+		escreva("digite primeiro valor: ")
+		leia(x)
+		escreva("digite o segundo valor: ")
+		leia(y)
+		real resultado=(x*x)+(y*y)
+		escreva("resultado: ",resultado)
+	}
+}
