@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+    inteiro maioridade=0
+    inteiro menoridade
+    para(inteiro a=1;a<=10;(a++))
+    {
+      escreva("digite sua idade: ")
+      leia(idade)
+      se(maioridade>idade)
+      {
+        menoridadd=idade
+      }
+      senao
+      {
+        maioridade=idade
+      }
+       
+      }
+      escreva("a maior idade �: ",maioridade)
+    }
+  }
