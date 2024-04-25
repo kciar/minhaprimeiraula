@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real peso
+		real altura
+		escreva("digite seu peso em quilogramas: ")
+		leia(peso)
+		escreva("digite sua altura em metros: ")
+		leia(altura)
+		escreva("seu peso ideal é: ",(altura*72.7)-58)
+	}
+}
